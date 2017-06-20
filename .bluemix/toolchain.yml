@@ -18,11 +18,11 @@ services:
   othertool-testng:
     service_id: customtool
     parameters:
-      name: 'Test NG'
-      description: 'Test NG Home page'
+      name: 'TestNG'
+      description: 'TestNG Home page'
       type: 'Test NG'
       lifecyclePhase: 'LEARN'
-      imageUrl: 'https://github.com/TinaLindhqvist/LinksToolchain/blob/master/.bluemix/TestNGicon.JPG'
+      imageUrl: 'TestNGicon.png'
       documentationUrl: 
       dashboard_url: 'http://testng.org/doc/index.html'
   othertool-selenium:
