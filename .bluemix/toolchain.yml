@@ -3,6 +3,8 @@ version: '2'
 template:
   name: "A Link Toolchain"
   description: "This toolchain will be used in Functional System Test."
+  #image: data:image/png;base64,$file(TC_Setup_icon64base.png,base64)
+  icon: data:image/png;base64,$file(toolchainIcon_UItest.png,base64)
   info:
     git url: >-
       [https://github.com/TinaLindhqvist/LinksToolchain](https://github.com/TinaLindhqvist/LinksToolchain)
@@ -18,9 +20,9 @@ services:
     parameters:
       name: 'Test NG'
       description: 'Test NG Home page'
-      type: 'my Test NG'
+      type: 'Test NG'
       lifecyclePhase: 'LEARN'
-      imageUrl: ''
+      imageUrl: 'https://github.com/TinaLindhqvist/LinksToolchain/blob/master/.bluemix/TestNGicon.JPG'
       documentationUrl: 
       dashboard_url: 'http://testng.org/doc/index.html'
   othertool-selenium:
@@ -28,7 +30,7 @@ services:
     parameters:
       name: 'Selenium'
       description: 'Selenium Home page'
-      type: 'my Selenium'
+      type: 'Selenium'
       lifecyclePhase: 'LEARN'
       imageUrl: 'http://www.seleniumhq.org/images/selenium-logo.png'
       documentationUrl: 
@@ -38,7 +40,7 @@ services:
     parameters:
       name: 'Stack Overflow'
       description: 'Stack Overflow Home page'
-      type: 'my Stack Overflow'
+      type: 'Stack Overflow'
       lifecyclePhase: 'THINK'
       imageUrl: 'https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66'
       documentationUrl: 'http://stackoverflow.com/documentation'
@@ -48,10 +50,8 @@ services:
     parameters:
       name: 'W3 Schools'
       description: 'W3 Schools Home page'
-      type: 'my W3 Schools'
+      type: 'W3 Schools'
       lifecyclePhase: 'CULTURE'
       imageUrl: 'https://www.w3schools.com/images/w3schools120x90.gif'
       documentationUrl: 
       dashboard_url: 'https://www.w3schools.com'
-  availabilitymonitoring:
-    service_id: apm
