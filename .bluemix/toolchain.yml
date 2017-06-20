@@ -3,7 +3,7 @@ version: '2'
 template:
   name: "A Link Toolchain"
   description: "This toolchain will be used in Functional System Test."
-  #image: data:image/png;base64,$file(TC_Setup_icon64base.png,base64)
+  image: LinkQuote.png
   icon: toolchainIcon_UItest.png
   info:
     git url: >-
