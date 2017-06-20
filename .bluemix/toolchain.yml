@@ -1,0 +1,46 @@
+---
+version: '2'
+template:
+  name: "A minimal Toolchain"
+  description: "This toolchain will be used in Functional System Test."
+services:
+  othertool:
+    service_id: customtool
+    parameters:
+      name: 'Test NG'
+      description: 'Test NG Home page'
+      type: 'my Test NG'
+      lifecyclePhase: 'LEARN'
+      imageUrl: ''
+      documentationUrl: 
+      dashboard_url: 'http://testng.org/doc/index.html'
+  othertool:
+    service_id: customtool
+    parameters:
+      name: 'Selenium'
+      description: 'Selenium Home page'
+      type: 'my Selenium'
+      lifecyclePhase: 'LEARN'
+      imageUrl: 'http://www.seleniumhq.org/images/selenium-logo.png'
+      documentationUrl: 
+      dashboard_url: 'http://www.seleniumhq.org/'
+  othertool:
+    service_id: customtool
+    parameters:
+      name: 'Stack Overflow'
+      description: 'Stack Overflow Home page'
+      type: 'my Stack Overflow'
+      lifecyclePhase: 'HELP'
+      imageUrl: 'https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66'
+      documentationUrl: 'http://stackoverflow.com/documentation'
+      dashboard_url: 'http://stackoverflow.com'
+othertool:
+    service_id: customtool
+    parameters:
+      name: 'W3 Schools'
+      description: 'W3 Schools Home page'
+      type: 'my W3 Schools'
+      lifecyclePhase: 'HELP'
+      imageUrl: 'https://www.w3schools.com/images/w3schools120x90.gif'
+      documentationUrl: 
+      dashboard_url: 'https://www.w3schools.com'  
