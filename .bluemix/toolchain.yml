@@ -4,7 +4,7 @@ template:
   name: "A minimal Toolchain"
   description: "This toolchain will be used in Functional System Test."
 services:
-  othertool:
+  othertool-testng:
     service_id: customtool
     parameters:
       name: 'Test NG'
@@ -14,7 +14,7 @@ services:
       imageUrl: ''
       documentationUrl: 
       dashboard_url: 'http://testng.org/doc/index.html'
-  othertool:
+  othertool-selenium:
     service_id: customtool
     parameters:
       name: 'Selenium'
@@ -24,7 +24,7 @@ services:
       imageUrl: 'http://www.seleniumhq.org/images/selenium-logo.png'
       documentationUrl: 
       dashboard_url: 'http://www.seleniumhq.org/'
-  othertool:
+  othertool-stackoverflow:
     service_id: customtool
     parameters:
       name: 'Stack Overflow'
@@ -34,7 +34,7 @@ services:
       imageUrl: 'https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66'
       documentationUrl: 'http://stackoverflow.com/documentation'
       dashboard_url: 'http://stackoverflow.com'
-othertool:
+othertool-w3schools:
     service_id: customtool
     parameters:
       name: 'W3 Schools'
