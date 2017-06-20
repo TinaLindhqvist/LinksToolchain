@@ -1,8 +1,17 @@
 ---
 version: '2'
 template:
-  name: "A minimal Toolchain"
+  name: "A Link Toolchain"
   description: "This toolchain will be used in Functional System Test."
+  info:
+    git url: >-
+      [https://github.com/TinaLindhqvist/LinksToolchain](https://github.com/TinaLindhqvist/LinksToolchain)
+    git branch: >-
+      [master](https://github.com/TinaLindhqvist/LinksToolchain/tree/master)
+toolchain:
+  name: 'usefulLINKS-{{timestamp}}'
+  template:
+    getting_started: "Please enjoy the links in this Toolchain"
 services:
   othertool-testng:
     service_id: customtool
@@ -43,4 +52,6 @@ othertool-w3schools:
       lifecyclePhase: 'HELP'
       imageUrl: 'https://www.w3schools.com/images/w3schools120x90.gif'
       documentationUrl: 
-      dashboard_url: 'https://www.w3schools.com'  
+      dashboard_url: 'https://www.w3schools.com'
+  availabilitymonitoring:
+    service_id: apm
