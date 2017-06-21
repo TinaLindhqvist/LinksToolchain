@@ -22,7 +22,7 @@ services:
       description: 'TestNG Home page'
       type: 'Test NG Home page'
       lifecyclePhase: 'LEARN'
-      imageUrl: 'https://github.com/TinaLindhqvist/LinksToolchain/blob/master/TestNGicon.png'
+      #imageUrl: 'https://github.com/TinaLindhqvist/LinksToolchain/blob/master/TestNGicon.png'
       documentationUrl: 
       dashboard_url: 'http://testng.org/doc/index.html'
   othertool-selenium:
@@ -55,3 +55,13 @@ services:
       imageUrl: 'https://www.w3schools.com/images/w3schools120x90.gif'
       documentationUrl: 
       dashboard_url: 'https://www.w3schools.com'
+  othertool-ibm:
+    service_id: customtool
+    parameters:
+      name: 'IBM Home page'
+      description: 'IBM Home page'
+      type: 'IBM Home page'
+      lifecyclePhase: 'MANAGE'
+      imageUrl: ''
+      documentationUrl: 
+      dashboard_url: 'https://www.IBM.com'
