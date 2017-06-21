@@ -3,7 +3,7 @@ version: '2'
 template:
   name: "A Link Toolchain"
   description: "This toolchain will be used in Functional System Test."
-  header: ![LinkQuote](LinkQuote.png)
+  header: '![LinkQuote](LinkQuote.png)'
   icon: toolchainIcon_UItest.png
   info:
     git url: >-
