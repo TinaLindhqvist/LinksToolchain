@@ -20,9 +20,9 @@ services:
     parameters:
       name: 'TestNG Home page'
       description: 'TestNG Home page'
-      type: 'Test NG'
+      type: 'Test NG Home page'
       lifecyclePhase: 'LEARN'
-      imageUrl: 'https://github.com/TinaLindhqvist/LinksToolchain/blob/master/.bluemix/TestNGicon.png'
+      imageUrl: 'https://github.com/TinaLindhqvist/LinksToolchain/blob/master/TestNGicon.png'
       documentationUrl: 
       dashboard_url: 'http://testng.org/doc/index.html'
   othertool-selenium:
@@ -30,7 +30,7 @@ services:
     parameters:
       name: 'Selenium Home page'
       description: 'Selenium Home page'
-      type: 'Selenium'
+      type: 'Selenium Home page'
       lifecyclePhase: 'LEARN'
       imageUrl: 'http://www.seleniumhq.org/images/selenium-logo.png'
       documentationUrl: 
@@ -40,7 +40,7 @@ services:
     parameters:
       name: 'Stack Overflow Home page'
       description: 'Stack Overflow Home page'
-      type: 'Stack Overflow'
+      type: 'Stack Overflow Home page'
       lifecyclePhase: 'THINK'
       imageUrl: 'https://cdn.sstatic.net/Sites/stackoverflow/company/img/logos/so/so-icon.svg?v=6e4af45f4d66'
       documentationUrl: 'http://stackoverflow.com/documentation'
@@ -50,7 +50,7 @@ services:
     parameters:
       name: 'W3 Schools Home page'
       description: 'W3 Schools Home page'
-      type: 'W3 Schools'
+      type: 'W3 Schools Home page'
       lifecyclePhase: 'CULTURE'
       imageUrl: 'https://www.w3schools.com/images/w3schools120x90.gif'
       documentationUrl: 
