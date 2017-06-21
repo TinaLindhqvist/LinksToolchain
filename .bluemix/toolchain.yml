@@ -3,7 +3,7 @@ version: '2'
 template:
   name: "A Link Toolchain"
   description: "This toolchain will be used in Functional System Test."
-  image: LinkQuote.png
+  header: LinkQuote.png
   icon: toolchainIcon_UItest.png
   info:
     git url: >-
@@ -18,7 +18,7 @@ services:
   othertool-testng:
     service_id: customtool
     parameters:
-      name: 'TestNG'
+      name: 'TestNG Home page'
       description: 'TestNG Home page'
       type: 'Test NG'
       lifecyclePhase: 'LEARN'
@@ -28,7 +28,7 @@ services:
   othertool-selenium:
     service_id: customtool
     parameters:
-      name: 'Selenium'
+      name: 'Selenium Home page'
       description: 'Selenium Home page'
       type: 'Selenium'
       lifecyclePhase: 'LEARN'
@@ -38,7 +38,7 @@ services:
   othertool-stackoverflow:
     service_id: customtool
     parameters:
-      name: 'Stack Overflow'
+      name: 'Stack Overflow Home page'
       description: 'Stack Overflow Home page'
       type: 'Stack Overflow'
       lifecyclePhase: 'THINK'
@@ -48,7 +48,7 @@ services:
   othertool-w3schools:
     service_id: customtool
     parameters:
-      name: 'W3 Schools'
+      name: 'W3 Schools Home page'
       description: 'W3 Schools Home page'
       type: 'W3 Schools'
       lifecyclePhase: 'CULTURE'
